@@ -28,8 +28,9 @@ def monopoly_with_third_tier
 			},
 		}
 	}
-	monopoly_with_third_tier[:railroads] = :"names"
+	monopoly_with_third_tier[:railroads] = "names"
 end
+#monopoly_with_third_tier[:railroads] = "names"
 
 def monopoly_with_fourth_tier
 	monopoly =  {
