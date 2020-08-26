@@ -46,5 +46,5 @@ def monopoly_with_fourth_tier
 			:names=>"",
 	  }
 	}
-	monopoly[:railroads] = "names"
+	monopoly_with_third_tier[:railroads] = "names"
 end
